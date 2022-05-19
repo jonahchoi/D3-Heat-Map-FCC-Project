@@ -1,0 +1,30 @@
+body{
+  background-image: linear-gradient(to bottom right, #48dbfb, #ff6b6b);
+  font-family:Verdana, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+#container{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+h2{
+  margin:0;
+}
+#svg{
+
+}
+#tooltip{
+  position:absolute;
+  pointer-events:none;
+  text-align:center;
+  background: rgb(0,0,0,0.8);
+  color:#fff;
+  padding:10px;
+  border-radius: 3px;
+}
+.cell:hover{
+  stroke:black;
+}
